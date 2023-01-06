@@ -44,7 +44,10 @@
 
     <div class="vendometro-show-container">
       <div class="vendometro-show-image-container">
-        <img src="./assets/images/vendometro-info.png" alt="Mostrando o vendômetro na tela">
+        <img 
+          class="vendometro-show-image" 
+          src="./assets/images/vendometro-info.png" 
+          alt="Mostrando o vendômetro na tela">
       </div>
       <p class="vendometro-show-text">
         Diretamente no seu site, na mão dos seus clientes
@@ -131,7 +134,7 @@
       <ul class="citation-info-list-container">
         <li class="citation-info-item-container">
           <p class="citation-info-item-text">Este aplicativo é um 
-              <em class="citation-info-item-emphasis">Facilitador no dia a dia do corretor de imóveis</em>
+              <em class="citation-info-item-emphasis">facilitador no dia a dia do corretor de imóveis</em>
             e para o cliente transparência na avaliação do imóvel
           </p>
           <div class="citation-info-item-footer-container">
@@ -141,13 +144,12 @@
         </li>
 
         <li class="citation-info-item-container hide">
-          <p class="citation-info-item-text">Algo que André possa dizer 
-              <em class="citation-info-item-emphasis">Aqui com emphasis</em>
-            e complemento
+          <p class="citation-info-item-text">
+            Na Tehs, a Inteligência Imobiliária encontra a Inteligência Artificial para acelerar negócios imobiliários.
           </p>
           <div class="citation-info-item-footer-container">
-            <cite class="citation-info-item-footer-name-text">André Lage</cite>
-            <p class="citation-info-item-footer-aditional-text">Cidade ou outra referência</p>
+            <cite class="citation-info-item-footer-name-text">André Lage Freitas</cite>
+            <p class="citation-info-item-footer-aditional-text">Sócio-fundador, PhD em Computação</p>
           </div>
         </li>
 
@@ -157,14 +159,14 @@
     <aside class="citation-aside-container">
       <ul class="citation-aside-list-container">
         <li class="citation-aside-item-container">
-          <button class="citation-aside-item-button">
+          <button class="citation-aside-item-button" onclick="clickCitation(0)">
             <img class="citation-aside-item-image" 
                  src="./assets/images/avatar-carol-monteiro.png" 
                  alt="Foto de Carol Monteiro">
           </button>
         </li>
         <li class="citation-aside-item-container hide-item">
-          <button class="citation-aside-item-button">
+          <button class="citation-aside-item-button" onclick="clickCitation(1)">
             <img class="citation-aside-item-image" 
                  src="./assets/images/avatar-andre-lage.png" 
                  alt="Foto de André Lage">
@@ -189,15 +191,13 @@
         
         <div class="contact-location-container">
           <a 
-          target="_blank" 
-          class="contact-location-link"
-          href="https://www.google.com.br/maps/search/Rua+Souza+Dutra,+145,+sb%2Fsl+02,+Bairro+Estreito,+CEP+88.070-605/@-27.5866814,-48.5808871,17z/data=!3m1!4b1">
+            target="_blank" 
+            class="contact-location-link"
+            href="https://www.google.com.br/maps/search/Rua+Souza+Dutra,+145,+sb%2Fsl+02,+Bairro+Estreito,+CEP+88.070-605/@-27.5866814,-48.5808871,17z/data=!3m1!4b1">
           <img  
-          
-          src="./assets/images/map-location.png" 
-          alt="Localização da TEHS"
-          class="contact-location-image"
-          >
+            src="./assets/images/map-location.png" 
+            alt="Localização da TEHS"
+            class="contact-location-image">
         </a>
       </div>
     </div>
@@ -205,6 +205,7 @@
   <footer class="footer-container">
     <p class="footer-text">© Copyright 2023 TEHS. All Rights Reserved.</p>
   </footer>
-  
+
+  <script src="./scripts/citation.js"></script>
 </body>
 </html>

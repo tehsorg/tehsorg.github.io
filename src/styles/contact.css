@@ -23,3 +23,69 @@
   font-size: 1.25rem;
   margin: 2rem 4rem 2rem 2rem;
 }
+
+.contact-location-image{
+  max-width: 502px;
+  max-height: 318px;
+}
+.citation-aside-item-image{
+  max-width: 80px;
+  max-height: 80px;
+}
+
+@media (max-width: 1195px)
+{
+  .contact-interface-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info-text{
+    text-align: center;
+    margin: 1rem;
+  }
+  .contact-location-container{
+    margin-top: 1rem;
+  }
+  .contact-location-image{
+    align-self: center;
+  }
+}
+
+@media (max-width: 500px)
+{
+  .contact-location-image{
+    max-width: 400px;
+    max-height: 253px;
+  }
+  .citation-aside-item-button{
+    width: 50px;
+    height: 55px;
+  }
+  .citation-aside-item-image{
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 650px)
+{
+  .contact-info-text{
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 650px)
+{
+  .contact-location-image{
+    max-width: 300px;
+    max-height: 189.75px;
+  }
+}
+
+@media (max-width: 442px)
+{
+  .contact-info-text{
+    font-size: 1rem;
+  }
+}

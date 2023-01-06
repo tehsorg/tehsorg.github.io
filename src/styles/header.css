@@ -51,3 +51,20 @@
 .header-button-enter:hover{
   background-color: var(--primary-focus);
 }
+
+@media (max-width: 730px)
+{
+  .header-container {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+  }
+  .header-menu-container{
+    margin-top: -1.5rem;
+  }
+  .header-button-enter{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+

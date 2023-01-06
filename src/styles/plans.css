@@ -11,13 +11,14 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: -2rem;
 }
 
 .plans-item-container {
   display: flex;
   position: relative;
   flex-direction: column;
-  margin: 0 2rem;
+  margin: 2rem 2rem;
   align-items: center;
   justify-content: space-around;
   height: 22rem;
@@ -121,6 +122,40 @@
   color: var(--light);
   margin: 0.3rem;
 }
+
+
+
+@media (max-width: 770px)
+{
+  .plans-section-container{
+    margin: 1rem;    
+  }
+  .plans-item-container{
+    margin: 1rem
+  }
+}
+@media (max-width: 442px)
+{
+  .plans-item-title{
+    font-size: 1.5rem;
+  }
+  .plans-item-money-value-text{
+    font-size: 2.5rem;
+  }
+  .plans-item-money-currency-text{
+    font-size: 1.15rem;
+  }
+  .plans-item-info-text{
+    font-size: 1rem;
+  }
+  .plans-item-money-decimal-and-month-container{
+    font-size: 1.15rem;
+  }
+  .plans-item-button{
+    font-size: 1rem;
+  }
+}
+
 
 
 

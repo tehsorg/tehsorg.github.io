@@ -11,3 +11,10 @@
   font-size: 1.05rem;
   color: var(--alternative-text);
 }
+
+@media (max-width: 650px)
+{
+  .footer-text{
+    font-size: 0.95rem;
+  }
+}

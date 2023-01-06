@@ -67,3 +67,57 @@
 .hide-item{
   opacity: 30%;
 }
+
+@media (max-width: 1100px)
+{
+  .citation-section-container{
+    padding: 2rem 2rem;
+  }
+  .citation-aside-container{
+    position: absolute;
+    right: 0;
+  }
+  .citation-aside-item-container{ 
+    margin: 0rem;
+    
+  }
+  .citation-aside-item-button{
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 940px)
+{
+  .citation-info-item-text{
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 650px)
+{
+  .citation-info-item-text{
+    font-size: 1rem;
+    max-width: 15rem;
+  }
+  .citation-info-quote{
+    font-size: 8rem;
+    top: 0;
+  }
+  .citation-info-item-footer-container{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 450px)
+{
+  .citation-section-container{
+    padding: 1rem;
+  }
+  .citation-info-quote{
+    font-size: 6rem;
+    top: 0;
+    left: 2rem;
+  }
+  .citation-info-container{
+    left: -2rem; 
+  }
+}
+
