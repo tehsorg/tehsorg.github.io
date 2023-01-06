@@ -1,0 +1,69 @@
+
+
+.citation-section-container{
+  width: 100vw;
+  background-color: var(--primary);
+  padding: 4rem 12rem;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.citation-info-container{
+  max-width: 50rem;
+  position: relative;
+}
+
+.citation-info-quote{
+  font-size: 14rem;
+  position: absolute;
+  top: -60px;
+  color: var(--light);
+}
+
+.citation-info-list-container{
+  margin: 5rem 0 0 5rem;
+  color: var(--light);
+}
+
+.citation-info-item-text {
+  font-size: 1.75rem;
+  margin-bottom: 3.75rem;
+}
+
+.citation-info-item-footer-container{
+  font-size: 1.375rem;
+  font-style: italic;
+}
+
+.citation-aside-item-container{ 
+  margin: 1rem;
+}
+
+.citation-aside-item-button {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background: var(--light);
+  border-radius: 4px;
+  transition: 0.3s;
+
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.citation-aside-item-button:hover{
+  background-color: #E8E8E8;
+}
+
+
+.hide {
+  display: none;
+}
+
+.hide-item{
+  opacity: 30%;
+}

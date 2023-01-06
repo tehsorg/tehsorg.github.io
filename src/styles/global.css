@@ -44,7 +44,7 @@ li {
   font-weight: 500;
 }
 
-h3, h4, h5, p, select, input {
+h3, h4, h5, p, select, input, cite {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
