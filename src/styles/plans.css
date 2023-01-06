@@ -1,0 +1,133 @@
+.plans-section-container{
+  margin: 3rem 4rem 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.plans-section-title{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  color: var(--alternative-text);
+}
+
+.plans-options-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.plans-item-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0 2rem;
+  align-items: center;
+  justify-content: space-around;
+  height: 22rem;
+  width: 16rem;
+  padding: 1.5rem;
+  border-radius: 4px;
+  background-color: var(--primary);
+}
+
+.plans-item-container-soft{
+  background-color: var(--secondary);
+}
+
+.plans-item-title {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--light);
+  margin-bottom: 2rem;
+}
+
+.plans-item-money-container{
+  display: flex;
+  justify-content: center;
+}
+
+.plans-item-money-currency-text{
+  font-size: 1.5rem;
+  color: var(--light)
+}
+
+.plans-item-money-value-text{
+  font-size: 3.5rem;
+  margin: 1rem;
+  color: var(--light);
+  font-weight: 500;
+}
+.plans-item-money-decimal-and-month-container{
+  display: flex;
+  align-self: flex-end;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: var(--light)
+}
+.plans-item-money-month-text {
+  margin-top: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.plans-item-info-text {
+  font-size: 1.175rem;
+  color: var(--light);
+}
+.plans-item-info-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.plans-item-button {
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  margin-top: 1rem;
+  color: var(--alternative-text);
+  background: var(--light);
+  font-size: 1.25rem;
+  border-radius: 4px;
+  transition: 0.3s;
+
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+  0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+  0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.plans-item-button:hover{
+  background-color: #E8E8E8;
+}
+
+.plans-item-recomended-container {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  height: 1.5rem;
+  width: 6rem;
+  background-color: var(--warning);
+  border-radius: 0px 0 4px 4px;
+}
+
+.plans-item-recomended-text{
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  color: var(--light);
+}
+
+.plans-item-info-item-text{
+  font-size: 1rem;
+  color: var(--light);
+  margin: 0.3rem;
+}
+
+
+
