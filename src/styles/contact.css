@@ -1,0 +1,25 @@
+.contact-section-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-interface-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: var(--alternative-text);
+}
+
+.contact-info-text{
+  max-width: 40rem;
+  font-size: 1.25rem;
+  margin: 2rem 4rem 2rem 2rem;
+}

@@ -1,0 +1,13 @@
+.footer-container{
+  background-color: var(--transparent-light);
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text{
+  font-size: 1.05rem;
+  color: var(--alternative-text);
+}

@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./styles/vendometro.css">
   <link rel="stylesheet" href="./styles/plans.css">
   <link rel="stylesheet" href="./styles/citation.css">
+  <link rel="stylesheet" href="./styles/contact.css">
+  <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="./styles/page.css">
   <link rel="stylesheet" href="./styles/global.css">
   <title>Vendômetro</title>
@@ -20,8 +22,8 @@
       <img src="./assets/images/logo-header.png" alt="Logo da TEHS">
     </div>
     <ul class="header-menu-container">
-      <li class="header-menu-item"><a href="#">Planos</a></li>
-      <li class="header-menu-item"><a href="#">Contato</a></li>
+      <li class="header-menu-item"><a href="#planos">Planos</a></li>
+      <li class="header-menu-item"><a href="#contato">Contato</a></li>
     </ul>
     <button class="header-button-enter">Entrar</button>
   </header>
@@ -54,7 +56,7 @@
   </section>
 
 
-  <section class="plans-section-container">
+  <section class="plans-section-container" id="planos">
     <h2 class="section-title">Planos</h2>
     <ul class="plans-options-container">
       
@@ -171,6 +173,38 @@
       </ul>
     </aside>
   </section>
+  
+
+  <section class="contact-section-container">
+    <h2 class="section-title" id="contato">Contato</h2>
+    <div class="contact-interface-container">
+        <div class="contact-info-container">
+          <p class="contact-info-text">WhatsApp / Telefone: <em class="contact-info-emphasis-text">(71) 9 9988-0908</em></p>
+          <p class="contact-info-text">E-mail: <em class="contact-info-emphasis-text">contato@tehs.com.br</em></p>
+          <p class="contact-info-text">
+            Endereço: Rua Souza Dutra, 145, sala 1003, sb/sl 02, Bairro Estreito, CEP 88.070-605.
+            Florianópolis, SC.
+          </p>
+        </div>
+        
+        <div class="contact-location-container">
+          <a 
+          target="_blank" 
+          class="contact-location-link"
+          href="https://www.google.com.br/maps/search/Rua+Souza+Dutra,+145,+sb%2Fsl+02,+Bairro+Estreito,+CEP+88.070-605/@-27.5866814,-48.5808871,17z/data=!3m1!4b1">
+          <img  
+          
+          src="./assets/images/map-location.png" 
+          alt="Localização da TEHS"
+          class="contact-location-image"
+          >
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-container">
+    <p class="footer-text">© Copyright 2023 TEHS. All Rights Reserved.</p>
+  </footer>
   
 </body>
 </html>
