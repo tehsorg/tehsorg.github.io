@@ -78,7 +78,7 @@
   height: 2rem;
   margin-top: 1rem;
   color: var(--light);
-  background: var(--secondary);
+  background: var(--warning);
   font-size: 1.25rem;
   border-radius: 4px;
   transition: 0.3s;
@@ -89,7 +89,7 @@
 }
 
 .vendometro-show-button:hover{
-  background-color: var(--secondary-focus);
+  background-color: var(--warning-focus);
 }
 
 
